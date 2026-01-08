@@ -1,7 +1,13 @@
 
 
 ## Iniciar projeto django
+```
+python -m venv venv
+.\venv\Scripts\activate
+pip install django
 django-admin startproject project .
+python manage.py startapp contact
+```
 
 ## Testar runserver
 python manage.py runserver
