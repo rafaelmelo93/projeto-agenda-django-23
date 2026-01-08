@@ -15,4 +15,8 @@ git config --global init.defaultBranch main
 git init
 git add .
 git commit -m 'Mensagem'
+#Verifica o log do comit com autor e data
+git log
+# Add projeto ao repositório criado no github
+git remote add origin URL_DO_GITREPOSITORIO
 ```
