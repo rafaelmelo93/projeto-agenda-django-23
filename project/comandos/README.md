@@ -25,4 +25,11 @@ git commit -m 'Mensagem'
 git log
 # Add projeto ao repositório criado no github
 git remote add origin URL_DO_GITREPOSITORIO
+
+
+# Demais commits:
+git add .
+git status                           (Esse é opicional, serve para ver o que está adicionando)
+git commit -m 'alteração feita'
+git push
 ```
